@@ -1,0 +1,86 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "name": "Dành cho em",
+      "source": "",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/4/8/0/f/480fc1667c7258333a640a594adbf8de.jpg",
+      "listen_count": 0,
+      "follow_count": 0,
+      "singers": [
+        {
+          "id": 1,
+          "name": "Hoàng Tôn"
+        }
+      ],
+      "created_at": "2023/09/02 09:00:00",
+      "updated_at": "2023/09/02 09:02:00"
+    },
+    {
+      "id": 2,
+      "name": "Lửng lơ",
+      "source": "",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/a/7/a/4/a7a48912a10592d975ea5825980ede7f.jpg",
+      "listen_count": 0,
+      "follow_count": 0,
+      "singers": [
+        {
+          "id": 21,
+          "name": "Masew"
+        },
+        {
+          "id": 22,
+          "name": "Bray"
+        },
+        {
+          "id": 23,
+          "name": "RedT"
+        },
+        {
+          "id": 24,
+          "name": "Ý Tiên"
+        }
+      ],
+      "created_at": "2023/09/02 09:00:00",
+      "updated_at": "2023/09/02 09:02:00"
+    },
+    {
+      "id": 3,
+      "name": "Trăng mờ",
+      "source": "",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/c/b/b/d/cbbd413b34cb51bd82d3f5f23a0d5ceb.jpg",
+      "listen_count": 0,
+      "follow_count": 0,
+      "singers": [
+        {
+          "id": 31,
+          "name": "Chung Thanh Duy"
+        },
+        {
+          "id": 32,
+          "name": "Masew"
+        }
+      ],
+      "created_at": "2023/09/02 09:00:00",
+      "updated_at": "2023/09/02 09:02:00"
+    }
+  ],
+  "keywords": [
+    {
+      "id": 1,
+      "keyword": "abc"
+    },
+    {
+      "id": 2,
+      "keyword": "def"
+    },
+    {
+      "id": 3,
+      "keyword": "Anh em chúng mình"
+    },
+    {
+      "keyword": "a",
+      "id": 4
+    }
+  ]
+}
