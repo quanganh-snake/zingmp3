@@ -1,5 +1,6 @@
 {
     "songs": "/songs",
     "singers": "/singers",
-    "keywords": "/keywords"
+    "keywords": "/keywords",
+    "trending_search": "/trending_search"
 }

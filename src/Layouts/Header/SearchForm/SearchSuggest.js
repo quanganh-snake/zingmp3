@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import IonIcon from "@reacticons/ionicons";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 
-export default function SearchSuggest({ isHide, songs, suggests, onPostKeywords }) {
-	
-    const handleClickResult = () => {
-        onPostKeywords()
-    }
+export default function SearchSuggest({ isHide, songs, suggests, trending, onPostKeywords }) {
+	const handleClickResult = () => {
+		onPostKeywords();
+	};
 
 	return (
 		<div className={clsx("info-search", isHide && "hide")}>
@@ -47,7 +46,7 @@ export default function SearchSuggest({ isHide, songs, suggests, onPostKeywords 
 									});
 
 									return (
-										<li className="song-item recently-song-item" key={id} data-index={index}>
+										<li className="song-item recently-song-item" onClick={handleClickResult} key={id} data-index={index}>
 											<div className="individual-ctn2-song-item-img">
 												<img src={image} alt={name} className="individual-ctn2-song-img" />
 												<div className="individual-ctn2-song-item-icon">
@@ -69,7 +68,26 @@ export default function SearchSuggest({ isHide, songs, suggests, onPostKeywords 
 							</div>
 						</div>
 					</div>
-				) : null}
+				) : (
+					<div className="suggest">
+						<div className="suggest-header">
+							<h1 className="color-title">Gợi Ý Cho Bạn</h1>
+						</div>
+						<div className="suggest-body">
+							{trending.length > 0 &&
+								trending.map(({ id, name }) => {
+									return (
+										<li className="item" key={id}>
+											<span className="color-small">
+												<i className="fa-solid fa-arrow-trend-up" />
+											</span>
+											<span className="title color-main">{name}</span>
+										</li>
+									);
+								})}
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);

@@ -81,6 +81,24 @@
     {
       "keyword": "a",
       "id": 4
+    },
+    {
+      "keyword": "dành cho em",
+      "id": 5
+    },
+    {
+      "keyword": "trăng mờ",
+      "id": 6
+    }
+  ],
+  "trending_search": [
+    {
+      "id": 1,
+      "name": "Dành cho em"
+    },
+    {
+      "id": 2,
+      "name": "Lửng lơ"
     }
   ]
 }
